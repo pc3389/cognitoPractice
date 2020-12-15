@@ -13,9 +13,7 @@
     },
     "categories": {
       "auth": {
-        "cognitopractice68a8f03a": {
-          "hostedUIProviderCreds": "[]"
-        }
+        "cognitopractice68a8f03a": {}
       }
     }
   }

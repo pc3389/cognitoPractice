@@ -45,13 +45,12 @@
             "Arn"
         ]
     },
-    "useDefault": "defaultSocial",
+    "useDefault": "default",
     "hostedUI": true,
-    "hostedUIDomainName": "cogpractice68a8f03a-68a8f03a",
-    "authProvidersUserPool": [],
-    "hostedUIProviderMeta": "[]",
-    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"myapp://callback/\"],\"LogoutURLs\":[\"myapp://signout/\"]}",
-    "userPoolGroupList": [],
+    "userPoolGroupList": [
+        "admin",
+        "editors"
+    ],
     "serviceName": "Cognito",
     "dependsOn": []
 }
